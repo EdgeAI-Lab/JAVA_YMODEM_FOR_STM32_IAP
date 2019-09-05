@@ -19,7 +19,7 @@
 * 将您的bin文件命名为app.bin，并将其放在工程的resources文件夹下
 
 ## 使用方法
-* 首先编译[IAP_Binary_Template](https://github.com/FanHongchuang/STM32_IAP_Demo/tree/master/IAP_Binary_Template)项目得到bin文件
+* 首先编译[IAP_Binary_Template](https://github.com/FanHongchuang/STM32_IAP_Demo/tree/master/IAP_Binary_Template)项目得到bin文件，并将其放在工程的resources文件夹下
 
 * 然后编译并烧写[IAP_Main](https://github.com/FanHongchuang/STM32_IAP_Demo/tree/master/IAP_Main)
 
