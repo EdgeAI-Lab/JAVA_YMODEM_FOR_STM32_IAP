@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5e85ca1-6094-4909-a040-c5a4dfd35724" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/fhc/PrintInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ymodem/cn/fhc/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ymodem/cn/fhc/Main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ymodem/cn/fhc/Main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ymodem/cn/fhc/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ymodem/cn/fhc/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ymodem/cn/fhc/ymode/Modem$InvalidBlockException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ymodem/cn/fhc/ymode/Modem$InvalidBlockException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ymodem/cn/fhc/ymode/Modem$RepeatedBlockException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ymodem/cn/fhc/ymode/Modem$RepeatedBlockException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ymodem/cn/fhc/ymode/Modem$SynchronizationLostException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ymodem/cn/fhc/ymode/Modem$SynchronizationLostException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ymodem/cn/fhc/ymode/Modem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ymodem/cn/fhc/ymode/Modem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ymodem/cn/fhc/ymode/YModem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ymodem/cn/fhc/ymode/YModem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/fhc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/fhc/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/fhc/ymode/Modem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/fhc/ymode/Modem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/fhc/ymode/YModem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/fhc/ymode/YModem.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
