@@ -23,4 +23,4 @@
 
 * 然后编译并烧写[IAP_Main](https://github.com/FanHongchuang/STM32_IAP_Demo/tree/master/IAP_Main)
 
-* 最后编译启动本项目，根据终端提示的菜单进行操作即可 
+* 最后使用IntelliJ编译启动本项目，根据终端提示的菜单进行操作即可 
