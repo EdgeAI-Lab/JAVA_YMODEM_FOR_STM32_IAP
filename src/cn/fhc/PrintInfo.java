@@ -1,40 +1,50 @@
 package cn.fhc;
 
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 
 public class PrintInfo extends Thread{
 
-    private InputStream is;
-
+    private BufferedReader bufferedReader;
+    private OutputStream os;
     private boolean isRunning;
     public void setRunning(boolean running) {
         isRunning = running;
     }
 
-    public PrintInfo(InputStream is){
-        this.is = is;
+    public PrintInfo(InputStream is, OutputStream os){
+        bufferedReader = new BufferedReader(new InputStreamReader(is));
+        this.os = os;
     }
 
-    int readlen;
-    String getS;
-    byte[] bytes = new byte[1024];
+    CMDTable GetMD5 = new GetMD5("fw md5sum");
+    CMDTable GetUpdate = new GetUpdate("fw update");
+
+    List<CMDTable> list = new ArrayList<>();
 
     @Override
     public void run() {
+
+        list.add(GetMD5);
+        list.add(GetUpdate);
+
         while (isRunning && !Thread.currentThread().isInterrupted()){
             try {
-                if((readlen = is.available())>0){
-                    readlen = is.read(bytes,0,readlen);
-
-                    if(readlen>0){
-                        getS = new String(bytes,0,readlen);
-                        System.out.print(getS);
+                String line = bufferedReader.readLine();
+                if(!line.isEmpty()){
+                    for (int i = 0; i < list.size(); i++) {
+                        if(line.contains(list.get(i).cmdName)){
+                            list.get(i).callback(line,os);
+                        }
                     }
                 }
             } catch (IOException e) {
                 e.printStackTrace();
+                break;
             }
         }
+        System.out.println("exit");
     }
 }
